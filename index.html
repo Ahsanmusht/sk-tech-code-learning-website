@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK TECH code learning website.com</title>
+
+    <!-- font awesome cdn link--- -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- css file link----------- -->
+
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <!-- header section starts -->
+
+    <header>
+        <div id="menu" class="fas fa-bars"></div>
+
+
+        <a href="#" class="logo"><i class="fa-solid fa-code" style="color: #f1c40f;"></i><span></span>SK TECH</a>
+
+        <nav class="navbar">
+
+            <ul>
+
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#modules">Modules</a></li>
+                <li><a href="#teacher">Teacher</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+        <div id="login" class="fas fa-user-circle"></div>
+ 
+        
+    </header>
+
+    <!-- header section ends ---->
+    
+    <!-- login form  starts-->
+
+<div class="login-form">
+
+    <form>
+
+        <h3>Login</h3>
+
+        <input id="username" type="email" placeholder="Username" class="box">
+        <input id="password" type="password" placeholder="Password" class="box">
+
+        <p>forget password? <a href="#">new password</a></p>
+        <p>Dont have an account? <a href="#">Create account</a></p>
+
+        <input type="submit" value="login" class="btn" onclick="abc1()">
+
+        <i class="fas fa-times"></i>
+
+    </form>
+
+</div>
+
+    <!-- login form  ends---->
+
+    <!-- home section starts -->
+
+    <section id="home" class="home">
+
+        <h1>Web & App Development</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Mollitia pariatur, est amet aperiam veniam officiis doloremque,
+         voluptatum!</p>
+
+         <a href="#"><button class="btno">Get Started</button></a>
+
+         <div class="shape"></div>
+    </section>
+
+    <!-- home section ends ---->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+
+        <div class="image">
+
+            <img src="./images/about.png" alt="">
+
+        </div>
+
+        <div class="content">
+
+            <h3>Why Choose us?</h3>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Iure, earum est officiis sit illo quo deleniti expedita.</p>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Molestias porro ea provident, debitis rerum optio magnam facere
+             sint similique nisi delectus!</p>
+
+             <a href="#"><button class="btn">Learn more</button></a>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends ---->
+    
+    <!-- modules section starts -->
+
+    <section id="modules" class="modules">
+
+        <h3 class="heading">Our Modules/Course</h3>
+
+
+        <div class="box-container">
+
+
+            <div class="box">
+
+                <img src="./images/course html&css.jpg" alt="">
+
+                <h3 class="price">1500/=</h3>
+
+                <div class="content">
+
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+
+                    </div>
+
+                    <a href="#" class="title">Learn Basic HTML & CSS</a>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptatibus vero est a distinctio cupiditate optio magni autem delectus laborum,</p>
+                        
+                    <div class="info">
+
+                        <h3><i class="far fa-clock"></i> 3 hours</h3>
+                        <h3><i class="far fa-calendar-alt"></i> 5 months</h3>
+                        <h3><i class="fas fa-book"></i> 2 Modules</h3>
+
+                    </div>
+                        
+                </div>
+
+            </div>
+
+            
+
+            <div class="box">
+
+                <img src="./images/course bootstrap& media query.jpg" alt="">
+
+                <h3 class="price">2000/=</h3>
+
+                <div class="content">
+
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+
+                    <a href="#" class="title">Learn Bootstrap & Media Query</a>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptatibus vero est a distinctio cupiditate optio magni autem delectus laborum,</p>
+                        
+                    <div class="info">
+
+                        <h3><i class="far fa-clock"></i> 3 hours</h3>
+                        <h3><i class="far fa-calendar-alt"></i> 2 months</h3>
+                        <h3><i class="fas fa-book"></i> 2 Modules</h3>
+
+                    </div>
+                        
+                </div>
+
+            </div>
+
+            
+
+            <div class="box">
+
+                <img src="./images/course javascript & es6.jpeg" alt="">
+
+                <h3 class="price">1200/=</h3>
+
+                <div class="content">
+
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+
+                    </div>
+
+                    <a href="#" class="title">Learn javascript & ES6</a>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptatibus vero est a distinctio cupiditate optio magni autem delectus laborum,</p>
+                        
+                    <div class="info">
+
+                        <h3><i class="far fa-clock"></i> 3 hours</h3>
+                        <h3><i class="far fa-calendar-alt"></i> 5 months</h3>
+                        <h3><i class="fas fa-book"></i> 2 Modules</h3>
+
+                    </div>
+                        
+                </div>
+
+            </div>
+
+            
+
+            <div class="box">
+
+                <img src="./images/course heroku server.jpg" alt="">
+
+                <h3 class="price">2500/=</h3>
+
+                <div class="content">
+
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+
+                    <a href="#" class="title">Learn Heroko Server</a>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptatibus vero est a distinctio cupiditate optio magni autem delectus laborum,</p>
+                        
+                    <div class="info">
+
+                        <h3><i class="far fa-clock"></i> 3 hours</h3>
+                        <h3><i class="far fa-calendar-alt"></i> 1 months</h3>
+                        <h3><i class="fas fa-book"></i> 1 Module</h3>
+
+                    </div>
+                        
+                </div>
+
+            </div>
+
+            
+
+            <div class="box">
+
+                <img src="./images/course database.jpg" alt="">
+
+                <h3 class="price">1000/=</h3>
+
+                <div class="content">
+
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+
+                    </div>
+
+                    <a href="#" class="title">Learn Database Managment</a>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptatibus vero est a distinctio cupiditate optio magni autem delectus laborum,</p>
+                        
+                    <div class="info">
+
+                        <h3><i class="far fa-clock"></i> 3 hours</h3>
+                        <h3><i class="far fa-calendar-alt"></i> 2 months</h3>
+                        <h3><i class="fas fa-book"></i> 1 Module</h3>
+
+                    </div>
+                        
+                </div>
+
+            </div>
+
+            
+
+            <div class="box">
+
+                <img src="./images/course react & react native.jpg" alt="">
+
+                <h3 class="price">2500/=</h3>
+
+                <div class="content">
+
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+
+                    <a href="#" class="title">Learn React & React Native JS</a>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptatibus vero est a distinctio cupiditate optio magni autem delectus laborum,</p>
+                        
+                    <div class="info">
+
+                        <h3><i class="far fa-clock"></i> 3 hours</h3>
+                        <h3><i class="far fa-calendar-alt"></i> 5 months</h3>
+                        <h3><i class="fas fa-book"></i> 2 Modules</h3>
+
+                    </div>
+                        
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- modules section ends ---->
+
+    <!-- teacher section starts -->
+
+    <section class="teacher" id="teacher">
+
+        <h3 class="heading">Our Expert Teacher</h3>
+
+
+            <h1>Hafiz Sheikh Ahmer Ali</h1>
+            
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ut saepe beatae.
+            Dolores id soluta tenetur aut laboriosam. Perspiciatis, venia
+           ates, molestiae quos?</p>
+   
+           <a href="#"><button class="btn">Read more</button></a>
+            <div>
+           <img src="./images/sir_ahmer-removebg.png" alt="">
+        </div>
+        </section>
+
+    <!-- teacher section ends --  -->
+
+    <!-- contact section starts-- -->
+
+        <section class="contact" id="contact">
+
+
+            <h3 class="heading">Contact us</h3>
+
+
+            <div class="row">
+
+                <form>
+
+                    <input id="fullname" type="text" placeholder="Enter Your Fullname" class="box">
+                    <input id="email" type="email" placeholder="Enter Your Email" class="box">
+                    <input id="passwrd" type="password" placeholder="Enter Your Password" class="box">
+                    <input id="number" type="number" placeholder="Enter Your Number" class="box">
+
+                    <textarea name="" id="address" cols="30" rows="10" class="box address" placeholder="Enter Your Address"></textarea>
+
+                    <input type="submit" value="Send Now" class="btn" onclick="abc2()">
+                </form>
+
+                <div class="image">
+
+                    <img src="./images/contact-img.png">
+
+                </div>
+
+            </div>
+
+        </section>
+
+    <!-- contact section ends---- -->
+
+    <!-- footer section starts--- -->
+
+        <div class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+
+                    <h3>Our Location</h3>
+
+                    <a href="#">Orangi Town Campus</a>
+                    <a href="#">Nazimabad Campus</a>
+                    <a href="#">Rehmat Chowk 11/2 Campus</a>
+                    <a href="#">Ali Nagar Campus</a>
+
+                </div>
+
+            <div class="box">
+                
+                <h3>quick Links</h3>
+
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">Modules</a>
+                <a href="#">teacher</a>
+                <a href="#">contact</a>
+
+            </div>
+
+            <div class="box">
+
+                <h3>Contact</h3>
+                <p> <i class="fas fa-map-marker-alt"></i> Rehmat Chowk 11/2 Campus</p>
+                <p> <i class="fas fa-envelope"></i> sheikhahmerali75@gmail.com</p>
+                <p> <i class="fas fa-phone"></i> +92-34628588293</p>
+            </div>
+
+            </div>
+
+            <h1 class="credit">Copyright 2022. Created By <a href="https://github.com/Ahsanmusht">Ahsan Mushtaq</a> .All Right Reserved !</h1>
+
+        </div>
+
+    <!-- footer section end--s--- -->
+
+
+
+
+
+<!-- jquery cdn link--------- -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- js file link-------- -->
+
+    <script src="index.js"></script>
+</body>
+</html>
